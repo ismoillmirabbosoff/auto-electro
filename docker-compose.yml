@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  quantumfront:
+    container_name: quantumfront
+    image: zeromaxinc/quantum_front
+    ports:
+      - 3000:3000
